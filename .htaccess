@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^canvaprofree.tech$
+RewriteRule ^(.*)$ https://canvaprofree.tech/$1 [R=301,L]
